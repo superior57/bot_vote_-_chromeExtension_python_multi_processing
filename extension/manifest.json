@@ -1,0 +1,19 @@
+{
+    "name": "Notification Toast",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "This is Notification",
+    "permissions": [
+        "notifications",
+        "activeTab",
+        "alarms",
+        "tabs",
+        "identity",
+        "*://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "minimum_chrome_version": "70"
+}
